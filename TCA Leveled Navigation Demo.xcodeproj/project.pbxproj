@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ADDCADE29D4B61F0018056B /* TCA_Leveled_Navigation_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDCADD29D4B61F0018056B /* TCA_Leveled_Navigation_DemoApp.swift */; };
+		2ADDCAE029D4B61F0018056B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDCADF29D4B61F0018056B /* ContentView.swift */; };
+		2ADDCAE229D4B6200018056B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADDCAE129D4B6200018056B /* Assets.xcassets */; };
+		2ADDCAE529D4B6200018056B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADDCAE429D4B6200018056B /* Preview Assets.xcassets */; };
+		2ADDCAED29D4B64C0018056B /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADDCAEC29D4B64C0018056B /* ComposableArchitecture */; };
+		2ADDCAEF29D4B65A0018056B /* LevelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDCAEE29D4B65A0018056B /* LevelOne.swift */; };
+		2ADDCAF129D4B6830018056B /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDCAF029D4B6830018056B /* LevelTwo.swift */; };
+		2ADDCAF329D4B6A00018056B /* LevelThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDCAF229D4B6A00018056B /* LevelThree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ADDCADA29D4B61F0018056B /* TCA Leveled Navigation Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA Leveled Navigation Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADDCADD29D4B61F0018056B /* TCA_Leveled_Navigation_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_Leveled_Navigation_DemoApp.swift; sourceTree = "<group>"; };
+		2ADDCADF29D4B61F0018056B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2ADDCAE129D4B6200018056B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ADDCAE429D4B6200018056B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ADDCAEE29D4B65A0018056B /* LevelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOne.swift; sourceTree = "<group>"; };
+		2ADDCAF029D4B6830018056B /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
+		2ADDCAF229D4B6A00018056B /* LevelThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelThree.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ADDCAD729D4B61F0018056B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADDCAED29D4B64C0018056B /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ADDCAD129D4B61F0018056B = {
+			isa = PBXGroup;
+			children = (
+				2ADDCADC29D4B61F0018056B /* TCA Leveled Navigation Demo */,
+				2ADDCADB29D4B61F0018056B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ADDCADB29D4B61F0018056B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADDCADA29D4B61F0018056B /* TCA Leveled Navigation Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ADDCADC29D4B61F0018056B /* TCA Leveled Navigation Demo */ = {
+			isa = PBXGroup;
+			children = (
+				2ADDCADD29D4B61F0018056B /* TCA_Leveled_Navigation_DemoApp.swift */,
+				2ADDCADF29D4B61F0018056B /* ContentView.swift */,
+				2ADDCAEE29D4B65A0018056B /* LevelOne.swift */,
+				2ADDCAF029D4B6830018056B /* LevelTwo.swift */,
+				2ADDCAF229D4B6A00018056B /* LevelThree.swift */,
+				2ADDCAE129D4B6200018056B /* Assets.xcassets */,
+				2ADDCAE329D4B6200018056B /* Preview Content */,
+			);
+			path = "TCA Leveled Navigation Demo";
+			sourceTree = "<group>";
+		};
+		2ADDCAE329D4B6200018056B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2ADDCAE429D4B6200018056B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ADDCAD929D4B61F0018056B /* TCA Leveled Navigation Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADDCAE829D4B6200018056B /* Build configuration list for PBXNativeTarget "TCA Leveled Navigation Demo" */;
+			buildPhases = (
+				2ADDCAD629D4B61F0018056B /* Sources */,
+				2ADDCAD729D4B61F0018056B /* Frameworks */,
+				2ADDCAD829D4B61F0018056B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCA Leveled Navigation Demo";
+			packageProductDependencies = (
+				2ADDCAEC29D4B64C0018056B /* ComposableArchitecture */,
+			);
+			productName = "TCA Leveled Navigation Demo";
+			productReference = 2ADDCADA29D4B61F0018056B /* TCA Leveled Navigation Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ADDCAD229D4B61F0018056B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2ADDCAD929D4B61F0018056B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 2ADDCAD529D4B61F0018056B /* Build configuration list for PBXProject "TCA Leveled Navigation Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ADDCAD129D4B61F0018056B;
+			packageReferences = (
+				2ADDCAEB29D4B64C0018056B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = 2ADDCADB29D4B61F0018056B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ADDCAD929D4B61F0018056B /* TCA Leveled Navigation Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ADDCAD829D4B61F0018056B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADDCAE529D4B6200018056B /* Preview Assets.xcassets in Resources */,
+				2ADDCAE229D4B6200018056B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ADDCAD629D4B61F0018056B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADDCAE029D4B61F0018056B /* ContentView.swift in Sources */,
+				2ADDCADE29D4B61F0018056B /* TCA_Leveled_Navigation_DemoApp.swift in Sources */,
+				2ADDCAEF29D4B65A0018056B /* LevelOne.swift in Sources */,
+				2ADDCAF129D4B6830018056B /* LevelTwo.swift in Sources */,
+				2ADDCAF329D4B6A00018056B /* LevelThree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2ADDCAE629D4B6200018056B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ADDCAE729D4B6200018056B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ADDCAE929D4B6200018056B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA Leveled Navigation Demo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chenzook.TCA-Leveled-Navigation-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ADDCAEA29D4B6200018056B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA Leveled Navigation Demo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chenzook.TCA-Leveled-Navigation-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ADDCAD529D4B61F0018056B /* Build configuration list for PBXProject "TCA Leveled Navigation Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADDCAE629D4B6200018056B /* Debug */,
+				2ADDCAE729D4B6200018056B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADDCAE829D4B6200018056B /* Build configuration list for PBXNativeTarget "TCA Leveled Navigation Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADDCAE929D4B6200018056B /* Debug */,
+				2ADDCAEA29D4B6200018056B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2ADDCAEB29D4B64C0018056B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = "navigation-beta";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2ADDCAEC29D4B64C0018056B /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ADDCAEB29D4B64C0018056B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2ADDCAD229D4B61F0018056B /* Project object */;
+}
