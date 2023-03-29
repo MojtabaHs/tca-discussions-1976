@@ -39,8 +39,16 @@ struct LevelOne: ReducerProtocol {
 struct LevelOneView: View {
     let store: StoreOf<LevelOne>
 
+    struct State: Equatable {
+        var title: String
+
+        init(_ featureState: LevelOne.State) {
+            self.title = featureState.title
+        }
+    }
+
     var body: some View {
-        WithViewStore(store, observe: { $0 }) { viewStore in
+        WithViewStore(store, observe: State.init) { viewStore in
             NavigationLinkStore(
                 store.scope(state: \.$levelTwo, action: LevelOne.Action.levelTwo)) {
                     viewStore.send(.levelTwoTapped)

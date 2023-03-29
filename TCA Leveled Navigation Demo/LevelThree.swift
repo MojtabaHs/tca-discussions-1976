@@ -24,8 +24,16 @@ struct LevelThree: ReducerProtocol {
 struct LevelThreeView: View {
     let store: StoreOf<LevelThree>
 
+    struct State: Equatable {
+        var title: String
+
+        init(_ featureState: LevelThree.State) {
+            self.title = featureState.title
+        }
+    }
+
     var body: some View {
-        WithViewStore(store, observe: { $0 }) { viewStore in
+        WithViewStore(store, observe: State.init) { viewStore in
             Text(viewStore.title)
                 .onAppear {
                     viewStore.send(.onAppear)
