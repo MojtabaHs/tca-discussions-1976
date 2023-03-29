@@ -1,7 +1,7 @@
 import SwiftUI
 import ComposableArchitecture
 
-struct LevelThree: Reducer {
+struct LevelThree: ReducerProtocol {
     struct State: Equatable {
         var title = "Level three"
     }
@@ -10,7 +10,7 @@ struct LevelThree: Reducer {
         case onAppear
     }
 
-    var body: some ReducerOf<Self> {
+    var body: some ReducerProtocolOf<Self> {
         Reduce<State, Action> { state, action in
             switch action {
             case .onAppear:
